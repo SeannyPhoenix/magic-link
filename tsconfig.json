@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "build/",
+    "strict": true,
+    "target": "ESNext",
+    "declaration": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "watchOptions": {
+    "watchDirectory": "usefsevents"
+  }
+}
